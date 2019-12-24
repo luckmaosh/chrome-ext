@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="../css/global.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>小云环境</h1>
+			<a href="#" id="check" title="None">None</a>
+			<div id="counter" class="counter"></div>
+		</header>
+		<section id="result">
+			<form action="" name="form_links">
+				<fieldset class="list">
+					<ul id="urlList">
+						
+					</ul>
+				</fieldset <fieldset>
+				<div>
+					<div>
+						<input id="add" type="button" value="Add favorites" class="btn">
+					</div>
+					<div>
+						<input id="copy" type="button" value="Copy clipboard" class="btn">
+						<!--value change to "It's Copied!"-->
+					</div>
+				</div>
+				</fieldset>
+				<fieldset id="bookmark" style="display:none">
+					<h2>Bookmark list</h2>
+					<select id="bookmarkList"></select>
+					<input id="newfolder" type="text" placeholder="Name to folder" style="display:none">
+					<div>
+						<div>
+							<input id="create" type="button" value="New folder" class="btn">
+						</div>
+						<div>
+							<input id="save" type="button" value="Save" class="btn">
+						</div>
+						<div>
+							<input id="cancel" type="button" value="Cancel" class="btn">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+		<alert id="notification" style="display:none"></alert>
+		<footer>
+
+			<div>
+				<input id="zan" type="button" value="点赞👍" class="btn">
+			</div>
+
+			<div>
+				<input id="feeback" type="button" value="反馈问题" class="btn">
+				<!--value change to "It's Copied!"-->
+			</div>
+
+
+		</footer>
+	</main>
+	<script src="../js/uquery.js"></script>
+	<script src="../js/tabs.js"></script>
+	<script src="../js/app.js"></script>
+</body>
+
+</html>
